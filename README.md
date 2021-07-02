@@ -1,5 +1,10 @@
 # [How to create custom COCO data set for instance segmentation](https://www.dlology.com/blog/how-to-create-custom-coco-data-set-for-instance-segmentation/) | DLology blog
-
+## Install Labelme
+```
+pip3 install labelme
+# avoid opencv-python conflict
+pip3 install opencv-python-headless
+```
 ## Quick start
 
 Then you can run the `labelme2coco.py` script to generate a COCO data formatted JSON file for you.
